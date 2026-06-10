@@ -303,8 +303,10 @@ textarea {
   margin-left: auto;
   border-color: rgb(11 22 51 / 18%);
   box-shadow: var(--shadow);
-  object-fit: contain;
+  min-height: 150px;      /* ← высота контейнера */
+  overflow: hidden; 
 }
+
 
 .hero-card h2 {
   margin: 0;

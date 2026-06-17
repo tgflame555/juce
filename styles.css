@@ -282,7 +282,7 @@ textarea {
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain /*cover*/;
   object-position: center top;
 }
 
@@ -297,13 +297,13 @@ textarea {
     rgb(255 255 255 / 10%);
 }
 
-.photo-placeholder--small {
+/*.photo-placeholder--small {
   width: 46%;
   margin-top: -22%;
   margin-left: auto;
   border-color: rgb(11 22 51 / 18%);
   box-shadow: var(--shadow);
- }
+ }*/
 
 
 .hero-card h2 {
